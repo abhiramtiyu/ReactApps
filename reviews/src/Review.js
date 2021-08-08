@@ -28,7 +28,6 @@ const Review = () => {
     }
     const randomPerson = () => {
         let randomNumber = Math.floor(Math.random() * People.length);
-
         if (randomNumber === index) {
             randomNumber = index + 1
         }
